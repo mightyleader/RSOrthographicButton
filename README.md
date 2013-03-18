@@ -36,6 +36,6 @@ However if you like to be told what to do, and I know I do....
 
 UIAppearance compliance
 -----------------------
-In short, yes. Thanks to some good advice on NSHipster [here](http://nshipster.com/uiappearance/)
-You can call the accessors of any of the above properties from the UIAppearance proxy an it'll behave.
+In short, yes. Thanks to some good advice on NSHipster [here](http://nshipster.com/uiappearance/).
+You can call the accessors of any of the above properties from the UIAppearance proxy and it'll behave.
 Read the docs on UIAppearance as it's something we should all be doing...
