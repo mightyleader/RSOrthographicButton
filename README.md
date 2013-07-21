@@ -9,7 +9,7 @@ Free to use/amend for personal or commercial use.
 All I ask is that I get a credit somewhere in the app or app store description, 
 that you let me know and don't mind me mentioning you using it in blogs, social postings etc...
 
-Using RSOrthogrpahicButton
+Using RSOrthographicButton
 --------------------------
 
 You can either add it straight to you .xib file by dragging in a UIButton an dthen changing the class to RSOrthographicButton
