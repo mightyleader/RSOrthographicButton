@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>RSOrthographicbutton by mightyleader</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>RSOrthographicbutton</h1>
+        <p>A FlatUI-style UIButton subclass, UIAppearance compliant.</p>
+        <p class="view"><a href="https://github.com/mightyleader/RSOrthographicButton">View the Project on GitHub <small>mightyleader/RSOrthographicButton</small></a></p>
+        <ul>
+          <li><a href="https://github.com/mightyleader/RSOrthographicButton/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mightyleader/RSOrthographicButton/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mightyleader/RSOrthographicButton">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="rsorthographicbutton" class="anchor" href="#rsorthographicbutton" aria-hidden="true"><span class="octicon octicon-link"></span></a>RSOrthographicButton</h1>
+
+<p>A FlatUI-style UIButton subclass, UIAppearance compliant.</p>
+
+<p>Good for iOS5 and above... currently tested in iOS6.1.2 and working fine...</p>
+
+<p>Free to use/amend for personal or commercial use. 
+All I ask is that I get a credit somewhere in the app or app store description, 
+that you let me know and don't mind me mentioning you using it in blogs, social postings etc...</p>
+
+<h2>
+<a id="using-rsorthographicbutton" class="anchor" href="#using-rsorthographicbutton" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using RSOrthographicButton</h2>
+
+<p>You can either add it straight to you .xib file by dragging in a UIButton an dthen changing the class to RSOrthographicButton
+or you can instantiate in code with initWithFrame:</p>
+
+<p>Since it's a UIButton subclass it's got all the rest of the standard behaviour.</p>
+
+<h2>
+<a id="configuring-rsorthographicbutton" class="anchor" href="#configuring-rsorthographicbutton" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configuring RSOrthographicButton</h2>
+
+<p>Check the header for the full lowdown on configurable properties and which are UIAppearance compliant.
+However if you like to be told what to do, and I know I do....</p>
+
+<p><strong>NSInteger shadowDrawnOffset</strong> - the offset value for the shadow, applied to both x and y position (hence orthographic)</p>
+
+<p><strong>CGFloat   shadowAlpha</strong>       - opacity of the shadow </p>
+
+<p><strong>NSInteger cornerButtonRadius</strong>      - applied to both the button and the shadow</p>
+
+<p><strong>UIColor   *buttonColor</strong>      - The unselected/highlighted button colour</p>
+
+<p><strong>UIColor   *selectColor</strong>      - The highlighted/selected button colour</p>
+
+<p><strong>UIColor   *shadowColor</strong>      - The colour of the shadow</p>
+
+<h2>
+<a id="uiappearance-compliance" class="anchor" href="#uiappearance-compliance" aria-hidden="true"><span class="octicon octicon-link"></span></a>UIAppearance compliance</h2>
+
+<p>In short, yes. Thanks to some good advice on NSHipster <a href="http://nshipster.com/uiappearance/">here</a>.
+You can call the accessors of any of the above properties from the UIAppearance proxy and it'll behave.
+Read the docs on UIAppearance as it's something we should all be doing...</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/mightyleader">mightyleader</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
